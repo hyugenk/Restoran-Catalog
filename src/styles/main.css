@@ -1,0 +1,284 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  color: #000000;
+}
+
+a {
+  min-width: 44px!important;
+  min-height: 44px!important;
+}
+
+.skip-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 99;
+  background-color: white;
+  font-size: 1em;
+  padding: 3px;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  color: black;
+  text-decoration: none;
+  z-index: 100;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.skip-content:focus {
+  top: 0;
+}
+
+.nav {
+  min-height: 46px;
+  width: 100%;
+  background-color: #ae0b0b;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.nav__list__container {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.nav__logo {
+  display: flex;
+  width: 10rem;
+  text-align: center;
+  line-height: 24px;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+
+.nav__item {
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  margin-right: 2rem;
+  margin-left: auto;
+  text-align: center;
+}
+
+
+
+.nav a{
+  color: #ffffff;
+  height: 45px;
+  width: 100%;
+}
+
+.nav a:hover {
+  color: #000;
+}
+
+.nav__item a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__item a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.1rem;
+  border-bottom: 0.1rem solid #ffffff;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav .nav__item a:hover::after {
+  transform: scaleX(1);
+}
+
+#humberger-menu {
+  display: none;
+  width: 50%;
+}
+
+
+.mainContent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color :#ae0b0b;
+}
+
+
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 500px;
+  width: 100%;
+  text-align: center;
+  background-position: center;
+  background-color: green;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/images/heros/hero-image_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(255, 255, 255) 1%, rgba(0, 0, 0, 0) 20%);
+}
+
+.hero__inner {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 5);
+}
+
+.hero__title h1 {
+  color: #ffffff;
+  z-index: 500px;
+}
+
+.hero__tagline {
+  color: #ffffff;
+  margin-top: 16px;
+  font-size: 25px;
+  font-weight: 500;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 5);
+}
+
+
+.mainContent {
+  width: 100%;
+  margin: auto auto;
+  padding: 32px;
+}
+
+.item {
+  margin: 16px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(210, 210, 210);
+  display: flex;
+  flex-direction: column; 
+  
+}
+
+.itemCity {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  height: 45px;
+  width: 100%;
+  align-items: center;
+  font-size: 18px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 5);
+}
+
+.itemRating {
+  position: absolute;
+  border-radius: 5px;
+  top: 0px;
+  right: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  height: 45px;
+  padding: 4px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 9);
+}
+
+p.itemRating {
+  color: #fbf9f9;
+}
+  
+
+.itemPicture {
+  width: 100%;
+  height: 250px;
+}
+
+.itemDesc {
+  padding: 12px;
+}
+
+.itemDesc a {
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+
+
+footer {
+  background-color: #ae0b0b;
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: large;
+  padding: 30px;
+}
+
+footer a {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 45px;
+}
+
+footer p {
+  height: 45px;
+}
+
+a.fa-instagram, a.fa-linkedin-in, a.fa-github {
+  font-size: 44px;
+  
+}
+
+a.fa-instagram:hover, a.fa-linkedin-in:hover, a.fa-github:hover {
+  font-size: 48px; 
+  padding: 12px;
+}
+
+
