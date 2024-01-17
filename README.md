@@ -1,5 +1,7 @@
 # Restoran-Catalog Submission 1 - Menjadi Front End Web Developer Expert Dicoding
 
+[![expert1.png](https://i.postimg.cc/SKHDqyg2/homepage.png)](https://postimg.cc/XZcwk0S4)
+
 ## Kriteria
 Fitur yang harus ada pada aplikasi: 
 
