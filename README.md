@@ -1,5 +1,4 @@
-# Restoran-Catalog
-Submission 1 - Menjadi Front End Web Developer Expert Dicoding
+# Restoran-Catalog Submission 1 - Menjadi Front End Web Developer Expert Dicoding
 
 ## Kriteria
 Fitur yang harus ada pada aplikasi: 
