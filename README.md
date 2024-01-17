@@ -13,6 +13,13 @@ Syarat:
   - About Us → arahkan ke profil LinkedIn/Github/Social Media Anda, atau boleh juga ke personal web/blog.
 - Terdapat fitur navigation drawer yang berfungsi dengan baik bila diakses pada layar seluler.
 
+### Hero Element (Jumbotron Element)
+Syarat:
+- Menampilkan hero element dengan gambar yang sudah ditentukan, silakan pilih salah satu aset yang disediakan di dalam starter proyek, src → public → images → hero. Gambar yang tidak digunakan, bisa Anda hapus.
+- Gambar hero element yang ditampilkan haruslah full-width atau memenuhi persyaratan sebagai berikut: 
+  - Tampilkanlah minimal width 1000px pada  viewport width >= 1200px.
+  - Jika ukuran viewport width < 1200px, maka hero element ditampilkan full-width.
+
 Cara Menjalankan Aplikasi :
 1. Install dependencies dengan menjalankan perintah: `npm i`
 2. Jalankan aplikasi secara lokal dengan perintah: `npm run start-dev`
