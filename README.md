@@ -36,6 +36,14 @@ Syarat:
 - Gunakan teknik Grid CSS atau Flexbox dalam menyusun layout. Bila terdapat float, submission akan ditolak.
 - Menetapkan ukuran viewport secara dinamis berdasarkan layar device yang digunakan.
 
+### Aksesibilitas Website
+Syarat:
+- Seluruh fungsionalitas website dapat dilakukan dengan menggunakan keyboard. Contohnya mengakses tombol hamburger button, mengakses tautan yang ada.
+- Menerapkan teknik skip to content untuk melewati focus pada menu navigasi.
+- Terdapat alternative teks pada seluruh gambar yang ditampilkan. Bila hanya gambar tidak memiliki arti apapun, cukup berikan atribut alt dengan nilai kosong. 
+- Dimensi touch target pada elemen yang diinteraksikan dengan touch harus memilliki ukuran minimal 44x44px. Adapun beberapa contoh elemen tersebut ialah button, anchor, input text, dan textarea.
+- Pastikan juga terdapat jarak antar elemen tersebut supaya dimensi touch target tidak menumpuk.
+- Menggunakan semantic element dalam menyusun struktur dan landmarking HTML.
 
 
 
