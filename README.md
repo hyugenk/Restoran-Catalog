@@ -19,6 +19,12 @@ Syarat:
 - Gambar hero element yang ditampilkan haruslah full-width atau memenuhi persyaratan sebagai berikut: 
   - Tampilkanlah minimal width 1000px pada  viewport width >= 1200px.
   - Jika ukuran viewport width < 1200px, maka hero element ditampilkan full-width.
+ 
+### Daftar Restoran
+Syarat:
+- Menampilkan daftar restoran berdasarkan data yang sudah disediakan di dalam project starter (src → DATA.json), untuk menampilkannya boleh melalui cara hardcoded di berkas HTML, atau menggunakan DOM manipulation menggunakan JavaScript.
+- Wajib menampilkan nama, gambar dan minimal salah satu diantara kota, rating, dan atau deskripsi pada restoran.
+  
 
 Cara Menjalankan Aplikasi :
 1. Install dependencies dengan menjalankan perintah: `npm i`
