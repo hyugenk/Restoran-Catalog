@@ -30,8 +30,14 @@ Syarat:
 - Terdapat footer yang ditampilkan di bawah halaman.
 - Terdapat konten teks bebas sesuai dengan kreatifitas Anda. Misalnya, konten copyright yang mencangkup tahun dan nama aplikasi. Contoh: “Copyright © 2020 - Hunger Apps”.
 
+### Responsibilitas Tampilan
+Syarat:
+- Tampilan web app harus responsif pada seluruh ukuran layar (mobile - tablet - desktop). Utamakan tampilan mobile terlebih dahulu.
+- Gunakan teknik Grid CSS atau Flexbox dalam menyusun layout. Bila terdapat float, submission akan ditolak.
+- Menetapkan ukuran viewport secara dinamis berdasarkan layar device yang digunakan.
 
-  
+
+
 
 Cara Menjalankan Aplikasi :
 1. Install dependencies dengan menjalankan perintah: `npm i`
