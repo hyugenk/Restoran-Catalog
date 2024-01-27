@@ -1,4 +1,5 @@
-# Restoran Catalog Submission 1 - Menjadi Front End Web Developer Expert Dicoding
+<h1 align="center"> Restoran Catalog Submission 1 </h1>
+<h1 align="center"> Menjadi Front End Web Developer Expert Dicoding</h1>
 
 [![expert1.png](https://i.postimg.cc/SKHDqyg2/homepage.png)](https://postimg.cc/XZcwk0S4)
 
